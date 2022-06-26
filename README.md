@@ -8,7 +8,7 @@ It is a kind of class in the OOP paradigm that we can use to avoid code duplicat
 
 An abstract class will never be instantiated. In fact, you could not. They are made for being extended of a subclass. For example, you could create an abstract class 'Animal' and then extend it in a subclass called 'Cat' or 'Whale'.
 
-In this case, the 'Animal' class could have defined functions or fields that can be used by the subclass. This is simply what we call inheritance. But with abstract classes you can create abstract methods, and that is they key, because you let the subclasses implement it. 
+In this case, the 'Animal' class could have defined functions or fields that can be used by the subclass. This is simply what we call inheritance. But with abstract classes you can create abstract methods, and that is they key, because you let the subclasses implement it. That means that the inherit the contract but not the implementation of it.
 
 ### Open/Closed SOLID principle
 
