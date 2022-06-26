@@ -29,11 +29,11 @@ public class AbstractClassesExample {
         ///////////////////////////////// Real case example for extract info from a file and send report
         // Phone number report
         ExtractorReport phoneNumberExtractorReport = new PhoneNumberExtractorReport();
-        phoneNumberExtractorReport.prepareAndSendReport("src/craft.abstract/data.txt");
+        phoneNumberExtractorReport.prepareAndSendReport("src/data.txt");
 
         // Email number report
         ExtractorReport emailExtractorReport = new EmailExtractorReport();
-        emailExtractorReport.prepareAndSendReport("src/craft.abstract/data.txt");
+        emailExtractorReport.prepareAndSendReport("src/data.txt");
 
     }
 
