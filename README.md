@@ -14,9 +14,9 @@ In this case, the 'Animal' class could have defined functions or fields that can
 
 One of the five SOLID principles is 'Open/Closed principle'. And it tells us that a class/module/function should be open for extension but closed for modification. Here is where abstract classes can be very helpful. In the ExtractReport example of this mvn project we can see it clearer.
 
-Imagine that instead of inheriting from ExtractReport in PhoneNumberExtractorReport or EmailNumberExtractorReport, we just have a class called ExtractReport. In this class, we have the method 'parse'. We would need to send a parameter to tell what kind of report do we want. And inside, depending on this parameter, do some logic or another. Imagine when the number of reports  types increases...
+Imagine that instead of inheriting from ExtractReport in PhoneNumberExtractorReport or EmailNumberExtractorReport, we just have a class called ExtractReport. In this class, we have the method 'parse'. We would need to send a parameter to tell what kind of report do we want. And inside, depending on this parameter, do some logic or another. Imagine when the number of reports types increases...
 
-This, breaks the rule. Because every new kind of report, we need to extend the class, but also we need to modify!!
+This, breaks the rule. Because for every new kind of report, we need to extend the class, but also we need to modify!!
 
 To solve this, we could create a new class called 'NewKindExtractorReport' and inherit from ExtractorReport. Like this, the rest of subclasses don't notice.
 
