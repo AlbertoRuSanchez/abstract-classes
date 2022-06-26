@@ -28,12 +28,10 @@ public class AbstractClassesExample {
 
         ///////////////////////////////// Real case example for extract info from a file and send report
         // Phone number report
-        ExtractorReport phoneNumberExtractorReport = new PhoneNumberExtractorReport();
-        phoneNumberExtractorReport.prepareAndSendReport("src/data.txt");
+        new PhoneNumberExtractorReport().prepareAndSendReport("src/data.txt");
 
         // Email number report
-        ExtractorReport emailExtractorReport = new EmailExtractorReport();
-        emailExtractorReport.prepareAndSendReport("src/data.txt");
+        new EmailExtractorReport().prepareAndSendReport("src/data.txt");
 
     }
 

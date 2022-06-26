@@ -14,4 +14,9 @@ public class EmailExtractorReport extends ExtractorReport{
     public String getReportName() {
         return "Email extract report";
     }
+
+    @Override
+    public String clean(String textToClean) {
+        return textToClean.toLowerCase();
+    }
 }

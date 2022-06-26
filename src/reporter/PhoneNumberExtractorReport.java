@@ -14,4 +14,9 @@ public class PhoneNumberExtractorReport extends ExtractorReport{
     public String getReportName() {
         return "Number extractor report";
     }
+
+    @Override
+    public String clean(String textToClean) {
+        return textToClean;
+    }
 }
