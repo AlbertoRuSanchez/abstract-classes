@@ -27,4 +27,4 @@ This question has already become a mainstream in the technical interviews to acc
 For me the most important difference is easier to understand when you know about SOLID principles. It is all about it, because abstract classes are perfect to apply the open/closed principle and interfaces can be used to apply the dependency inversion principle.
 
 Anyway, I made this little schema to see other differences:
-[![Screenshot-from-2022-07-02-18-25-28.png](https://i.postimg.cc/dtTy1B5D/Screenshot-from-2022-07-02-18-25-28.png)](https://postimg.cc/bspJVQcj)
+[![abstract-vs-interfaces.png](https://i.postimg.cc/28JkzCfh/abstract-vs-interfaces.png)](https://postimg.cc/RN75d5hZ)
