@@ -21,3 +21,10 @@ This, breaks the rule. Because for every new kind of report, we need to extend t
 To solve this, we could create a new class called 'NewKindExtractorReport' and inherit from ExtractorReport. Like this, the rest of subclasses don't notice.
 
 ### Abstract classes vs interfaces
+
+This question has already become a mainstream in the technical interviews to access to any company as a senior developer. I think that it is not so hard to give a good answer, but im sure that to apply this knowledge isn't that easy.
+
+For me the most important difference is easier to understand when you know about SOLID principles. It is all about it, because abstract classes are perfect to apply the open/closed principle and interfaces can be used to apply the dependency inversion principle.
+
+Anyway, I made this little schema to see other differences:
+[![Screenshot-from-2022-07-02-18-25-28.png](https://i.postimg.cc/dtTy1B5D/Screenshot-from-2022-07-02-18-25-28.png)](https://postimg.cc/bspJVQcj)
